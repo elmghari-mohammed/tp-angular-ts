@@ -1,0 +1,9 @@
+<p>about works!</p>
+
+<button type="button" (click)="afficherHome.set(!afficherHome())">
+  Afficher / masquer Home
+</button>
+
+@if (afficherHome()) {
+  <app-home />
+}

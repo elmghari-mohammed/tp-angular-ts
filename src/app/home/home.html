@@ -1,0 +1,11 @@
+<app-header />
+
+<p>home works!</p>
+
+<button type="button" (click)="afficherAbout.set(!afficherAbout())">
+  Afficher / masquer About
+</button>
+
+@if (afficherAbout()) {
+  <app-about />
+}
